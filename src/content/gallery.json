@@ -5,32 +5,32 @@
   "deskripsi": "Foto dari berbagai sesi di Foto Praga. Minta foto asli dari klien setelah mereka bergabung.",
   "items": [
     {
-      "url": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/portrait1/600/800",
       "alt": "Foto portrait profesional",
       "kategori": "Portrait"
     },
     {
-      "url": "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/family1/600/400",
       "alt": "Sesi foto keluarga di studio",
       "kategori": "Keluarga"
     },
     {
-      "url": "https://images.pexels.com/photos/3907507/pexels-photo-3907507.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/product1/600/400",
       "alt": "Foto produk e-commerce",
       "kategori": "Produk"
     },
     {
-      "url": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/portrait2/600/400",
       "alt": "Sesi foto individu",
       "kategori": "Portrait"
     },
     {
-      "url": "https://images.pexels.com/photos/1983046/pexels-photo-1983046.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/studio1/600/800",
       "alt": "Studio foto profesional",
       "kategori": "Studio"
     },
     {
-      "url": "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "url": "https://picsum.photos/seed/document1/600/400",
       "alt": "Foto dokumen resmi",
       "kategori": "Dokumen"
     }
