@@ -1,0 +1,158 @@
+backend:
+  name: github
+  repo: alekyoanda9/foto-praga
+  branch: main
+  base_url: https://sveltia-cms-alek.alexyoanda0.workers.dev
+
+media_folder: "public/images"
+public_folder: "/images"
+
+locale: id
+
+collections:
+  - name: "konten"
+    label: "Konten Website"
+    files:
+
+      # ── 1. Informasi Bisnis
+      - name: "info_bisnis"
+        label: "Informasi Bisnis"
+        file: "src/content/bisnis.json"
+        format: json
+        fields:
+          - { label: "Nama Bisnis",              name: "nama",            widget: "string" }
+          - { label: "Tagline",                  name: "tagline",         widget: "string" }
+          - { label: "Nomor WhatsApp (tanpa +)", name: "whatsapp",        widget: "string" }
+          - { label: "Username Instagram",       name: "instagram",       widget: "string" }
+          - { label: "Alamat Lengkap",           name: "alamat",          widget: "string" }
+          - { label: "Area/Kecamatan",           name: "area",            widget: "string" }
+          - { label: "Jam Buka",                 name: "jam_buka",        widget: "string" }
+          - { label: "Google Maps Embed URL",    name: "maps_embed",      widget: "string", hint: "Ambil dari Google Maps → Share → Embed a map → salin URL src iframe" }
+          - { label: "SEO Title",                name: "seo_title",       widget: "string", hint: "Maks 60 karakter. Contoh: Nama Bisnis — Layanan Utama, Area Kota" }
+          - { label: "SEO Description",          name: "seo_description", widget: "text",   hint: "Maks 160 karakter." }
+          - { label: "URL Website",              name: "seo_url",         widget: "string", hint: "URL lengkap site, mis. https://foto-praga.pages.dev/" }
+          - { label: "Koordinat Latitude",       name: "koordinat_lat",   widget: "string", hint: "Dari Google Maps, mis. -6.173652" }
+          - { label: "Koordinat Longitude",      name: "koordinat_lng",   widget: "string", hint: "Dari Google Maps, mis. 106.785123" }
+
+      # ── 2. Hero
+      - name: "hero"
+        label: "Hero (Halaman Utama)"
+        file: "src/content/hero.json"
+        format: json
+        fields:
+          - { label: "Label Lokasi",                  name: "lokasi_label",  widget: "string" }
+          - { label: "Heading Baris 1",               name: "heading_line1", widget: "string" }
+          - { label: "Heading Baris 2 (warna amber)", name: "heading_line2", widget: "string" }
+          - { label: "Teks Deskripsi",                name: "subheading",    widget: "text" }
+          - { label: "Teks Tombol Booking",           name: "cta_booking",   widget: "string" }
+          - { label: "Teks Tombol Layanan",           name: "cta_layanan",   widget: "string" }
+          - { label: "Foto Hero",                     name: "foto_hero",     widget: "image", required: false }
+
+      # ── 3. Layanan
+      - name: "layanan"
+        label: "Layanan"
+        file: "src/content/layanan.json"
+        format: json
+        fields:
+          - { label: "Label Section",   name: "label",         widget: "string" }
+          - { label: "Heading Baris 1", name: "heading_line1", widget: "string" }
+          - { label: "Heading Baris 2", name: "heading_line2", widget: "string" }
+          - { label: "Deskripsi",       name: "deskripsi",     widget: "text" }
+          - { label: "Teks Tombol CTA", name: "cta",           widget: "string" }
+          - label: "Daftar Layanan"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Nama Layanan", name: "nama",       widget: "string" }
+              - { label: "Deskripsi",    name: "deskripsi",  widget: "text" }
+              - { label: "Harga",        name: "harga",      widget: "string" }
+              - { label: "Durasi",       name: "durasi",     widget: "string" }
+              - { label: "Terpopuler?",  name: "terpopuler", widget: "boolean", default: false }
+
+      # ── 4. Portfolio / Gallery
+      - name: "gallery"
+        label: "Portfolio / Gallery"
+        file: "src/content/gallery.json"
+        format: json
+        fields:
+          - { label: "Label Section",   name: "label",         widget: "string" }
+          - { label: "Heading Baris 1", name: "heading_line1", widget: "string" }
+          - { label: "Heading Baris 2", name: "heading_line2", widget: "string" }
+          - { label: "Deskripsi",       name: "deskripsi",     widget: "text" }
+          - label: "Foto Portfolio"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "URL Foto",    name: "url",       widget: "image" }
+              - { label: "Alt Text",    name: "alt",       widget: "string" }
+              - { label: "Kategori",    name: "kategori",  widget: "string", hint: "mis. Portrait, Keluarga, Produk, Dokumen" }
+
+      # ── 5. Tentang Kami
+      - name: "about"
+        label: "Tentang Kami"
+        file: "src/content/about.json"
+        format: json
+        fields:
+          - { label: "Label Section",   name: "label",         widget: "string" }
+          - { label: "Heading Baris 1", name: "heading_line1", widget: "string" }
+          - { label: "Heading Baris 2", name: "heading_line2", widget: "string" }
+          - label: "Paragraf"
+            name: "paragraf"
+            widget: "list"
+            field: { label: "Paragraf", name: "item", widget: "text" }
+          - label: "Statistik"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Angka", name: "angka", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - { label: "Teks Tombol", name: "cta",  widget: "string" }
+          - { label: "Foto",        name: "foto", widget: "image", required: false }
+
+      # ── 6. Testimonial
+      - name: "testimonials"
+        label: "Testimonial / Ulasan"
+        file: "src/content/testimonials.json"
+        format: json
+        fields:
+          - { label: "Label Section",   name: "label",         widget: "string" }
+          - { label: "Heading Baris 1", name: "heading_line1", widget: "string" }
+          - { label: "Heading Baris 2", name: "heading_line2", widget: "string" }
+          - label: "Daftar Ulasan"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Nama Pelanggan",   name: "nama",    widget: "string" }
+              - { label: "Profesi/Lokasi",   name: "profesi", widget: "string" }
+              - { label: "Teks Ulasan",      name: "ulasan",  widget: "text" }
+              - { label: "Rating (1-5)",     name: "rating",  widget: "number", min: 1, max: 5, default: 5 }
+
+      # ── 7. Kontak & Lokasi
+      - name: "contact"
+        label: "Kontak & Lokasi"
+        file: "src/content/contact.json"
+        format: json
+        fields:
+          - { label: "Label Section",   name: "label",           widget: "string" }
+          - { label: "Heading Baris 1", name: "heading_line1",   widget: "string" }
+          - { label: "Heading Baris 2", name: "heading_line2",   widget: "string" }
+          - { label: "Alamat",          name: "alamat",          widget: "string" }
+          - { label: "Area/Kota",       name: "area",            widget: "string" }
+          - { label: "Jam Senin-Sabtu", name: "jam_senin_sabtu", widget: "string" }
+          - { label: "Jam Minggu",      name: "jam_minggu",      widget: "string" }
+          - { label: "Telepon",         name: "telepon",         widget: "string" }
+          - { label: "Teks Tombol WA",  name: "cta_wa",          widget: "string" }
+          - { label: "Teks Tombol Maps", name: "cta_maps",       widget: "string" }
+          - { label: "Link Google Maps", name: "maps_link",      widget: "string" }
+
+      # ── 8. Footer
+      - name: "footer"
+        label: "Footer"
+        file: "src/content/footer.json"
+        format: json
+        fields:
+          - { label: "Tagline",   name: "tagline",   widget: "string" }
+          - { label: "Alamat",    name: "alamat",    widget: "string" }
+          - { label: "Jam Buka",  name: "jam_buka",  widget: "string" }
+          - { label: "Telepon",   name: "telepon",   widget: "string" }
+          - { label: "Copyright", name: "copyright", widget: "string" }
