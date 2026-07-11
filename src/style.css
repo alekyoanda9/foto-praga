@@ -194,18 +194,15 @@ img { display: block; max-width: 100%; }
   font-family: var(--font-heading);
   font-size: var(--h1); font-weight: 700;
   line-height: 1.05; margin-bottom: 1.25rem;
-  opacity: 0;
 }
 .fp-hero__sub {
   font-size: clamp(1rem, 2vw, 1.15rem);
   color: rgba(240,237,230,0.75);
   max-width: 520px; margin-bottom: 2rem;
-  opacity: 0;
 }
-.fp-eyebrow { opacity: 0; }
+.fp-eyebrow { }
 .fp-hero__ctas {
   display: flex; flex-wrap: wrap; gap: 0.875rem;
-  opacity: 0;
 }
 .fp-hero__scroll-hint {
   position: absolute; bottom: 2rem; left: 50%;
@@ -254,7 +251,6 @@ img { display: block; max-width: 100%; }
   border-radius: var(--radius-md); padding: 1.75rem;
   position: relative;
   transition: border-color var(--ease), box-shadow var(--ease);
-  opacity: 0; transform: translateY(30px);
 }
 .fp-service-card:hover {
   border-color: rgba(245,166,35,0.35);
@@ -303,7 +299,6 @@ img { display: block; max-width: 100%; }
 .fp-gallery__item {
   position: relative; overflow: hidden;
   border-radius: var(--radius-sm); cursor: pointer;
-  opacity: 0; transform: translateY(20px);
 }
 .fp-gallery__item--tall { grid-row: span 2; }
 .fp-gallery__item img {
@@ -316,6 +311,7 @@ img { display: block; max-width: 100%; }
   background: linear-gradient(to top, rgba(10,10,13,0.8) 0%, transparent 100%);
   padding: 1.5rem 1rem 0.875rem;
   opacity: 0; transform: translateY(8px);
+  transition: opacity 0.2s, transform 0.2s;
 }
 .fp-gallery__caption span {
   font-size: 0.75rem; font-weight: 700;
@@ -370,15 +366,14 @@ img { display: block; max-width: 100%; }
   display: block;
   font-family: var(--font-heading); font-size: 2.2rem;
   font-weight: 700; color: var(--accent); line-height: 1;
-  opacity: 0;
 }
 .fp-about__stat-label {
   display: block; font-size: 0.75rem; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--muted); margin-top: 0.25rem;
 }
-.fp-about__text { opacity: 0; transform: translateX(-30px); }
-.fp-about__image { opacity: 0; transform: translateX(30px); }
+.fp-about__text { }
+.fp-about__image { }
 
 /* ── Testimonials ───────────────────────────── */
 .fp-testimonial__grid {
@@ -388,7 +383,6 @@ img { display: block; max-width: 100%; }
 .fp-testimonial__card {
   background: var(--surface-2); border: 1px solid var(--border);
   border-radius: var(--radius-md); padding: 1.75rem;
-  opacity: 0; transform: translateY(20px);
 }
 .fp-testimonial__stars { display: flex; gap: 3px; margin-bottom: 1rem; }
 .fp-testimonial__quote {
@@ -408,11 +402,9 @@ img { display: block; max-width: 100%; }
 .fp-contact__map {
   height: 420px; border-radius: var(--radius-md);
   overflow: hidden; border: 1px solid var(--border);
-  opacity: 0;
 }
 .fp-contact__details {
   display: flex; flex-direction: column; gap: 1.75rem;
-  opacity: 0; transform: translateX(20px);
 }
 .fp-contact__item { display: flex; gap: 1rem; align-items: flex-start; }
 .fp-contact__label {
