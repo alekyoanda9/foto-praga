@@ -5,11 +5,6 @@
   "deskripsi": "Foto dari berbagai sesi di Foto Praga. Minta foto asli dari klien setelah mereka bergabung.",
   "items": [
     {
-      "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
-      "alt": "Foto portrait profesional",
-      "kategori": "Portrait"
-    },
-    {
       "url": "https://images.unsplash.com/photo-1495366691023-cc4eadcc2d7e?w=600&q=80",
       "alt": "Sesi foto keluarga di studio",
       "kategori": "Keluarga"
