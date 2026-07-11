@@ -1,0 +1,38 @@
+{
+  "label": "Portfolio",
+  "heading_line1": "Hasil kerja",
+  "heading_line2": "yang bicara sendiri.",
+  "deskripsi": "Foto dari berbagai sesi di Foto Praga. Minta foto asli dari klien setelah mereka bergabung.",
+  "items": [
+    {
+      "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80",
+      "alt": "Foto portrait profesional",
+      "kategori": "Portrait"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1495366691023-cc4eadcc2d7e?w=600&q=80",
+      "alt": "Sesi foto keluarga di studio",
+      "kategori": "Keluarga"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80",
+      "alt": "Foto produk e-commerce",
+      "kategori": "Produk"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1554080353-a576cf803bda?w=600&q=80",
+      "alt": "Sesi foto individu",
+      "kategori": "Portrait"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&q=80",
+      "alt": "Studio foto profesional",
+      "kategori": "Studio"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1504703395950-b89145a5425b?w=600&q=80",
+      "alt": "Foto dokumen resmi",
+      "kategori": "Dokumen"
+    }
+  ]
+}

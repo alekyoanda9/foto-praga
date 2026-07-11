@@ -1,0 +1,25 @@
+{
+  "label": "Ulasan",
+  "heading_line1": "Kata mereka",
+  "heading_line2": "yang sudah coba.",
+  "items": [
+    {
+      "nama": "Pelanggan Foto Praga",
+      "profesi": "Warga Jakarta Barat",
+      "ulasan": "Tambahkan ulasan nyata dari pelanggan di sini setelah dikumpulkan dari klien.",
+      "rating": 5
+    },
+    {
+      "nama": "Pelanggan Foto Praga",
+      "profesi": "Warga Tanjung Duren",
+      "ulasan": "Tambahkan ulasan nyata dari pelanggan di sini setelah dikumpulkan dari klien.",
+      "rating": 5
+    },
+    {
+      "nama": "Pelanggan Foto Praga",
+      "profesi": "Warga Jakarta",
+      "ulasan": "Tambahkan ulasan nyata dari pelanggan di sini setelah dikumpulkan dari klien.",
+      "rating": 5
+    }
+  ]
+}

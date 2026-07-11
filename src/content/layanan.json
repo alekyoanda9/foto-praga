@@ -1,0 +1,44 @@
+{
+  "label": "Layanan",
+  "heading_line1": "Semua kebutuhan foto",
+  "heading_line2": "ada di sini.",
+  "deskripsi": "Dari foto dokumen resmi sampai sesi portrait keluarga. Hubungi kami untuk info harga dan ketersediaan.",
+  "cta": "Tanya Harga via WhatsApp",
+  "items": [
+    {
+      "nama": "Foto Dokumen Resmi",
+      "deskripsi": "KTP, paspor, visa, ijazah, dan semua kebutuhan foto identitas. Background sesuai standar instansi.",
+      "harga": "Hubungi Kami",
+      "durasi": "15 menit",
+      "terpopuler": true
+    },
+    {
+      "nama": "Foto Portrait",
+      "deskripsi": "Sesi portrait pribadi dengan pencahayaan studio. Cocok untuk LinkedIn, CV, atau koleksi pribadi.",
+      "harga": "Hubungi Kami",
+      "durasi": "30 - 60 menit",
+      "terpopuler": false
+    },
+    {
+      "nama": "Foto Keluarga",
+      "deskripsi": "Abadikan momen bersama keluarga di studio. Tersedia properti dan background pilihan.",
+      "harga": "Hubungi Kami",
+      "durasi": "60 menit",
+      "terpopuler": false
+    },
+    {
+      "nama": "Foto Produk",
+      "deskripsi": "Foto produk untuk e-commerce, katalog, atau media sosial bisnis. Hasil tajam dan siap pakai.",
+      "harga": "Hubungi Kami",
+      "durasi": "60 menit",
+      "terpopuler": false
+    },
+    {
+      "nama": "Cetak Foto",
+      "deskripsi": "Cetak berbagai ukuran dengan kualitas tinggi. Siap dalam hitungan menit langsung di tempat.",
+      "harga": "Hubungi Kami",
+      "durasi": "10 menit",
+      "terpopuler": false
+    }
+  ]
+}
