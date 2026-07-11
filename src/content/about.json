@@ -7,19 +7,10 @@
     "Buka setiap hari termasuk akhir pekan, sampai jam 9 malam. Karena kami tahu kebutuhan foto tidak selalu bisa menunggu hari kerja."
   ],
   "stats": [
-    {
-      "angka": "13",
-      "label": "Jam Operasional"
-    },
-    {
-      "angka": "7",
-      "label": "Hari per Minggu"
-    },
-    {
-      "angka": "08.00",
-      "label": "Buka Pagi"
-    }
+    { "angka": "13", "label": "Jam Operasional" },
+    { "angka": "7",  "label": "Hari per Minggu" },
+    { "angka": "08.00", "label": "Buka Pagi" }
   ],
   "cta": "Booking Sekarang",
-  "foto": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80&fit=crop"
+  "foto": "https://images.pexels.com/photos/3378914/pexels-photo-3378914.jpeg?auto=compress&cs=tinysrgb&w=800"
 }

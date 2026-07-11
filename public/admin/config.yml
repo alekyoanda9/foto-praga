@@ -2,7 +2,7 @@ backend:
   name: github
   repo: alekyoanda9/foto-praga
   branch: main
-  base_url: https://sveltia-cms-alek.alexyoanda0.workers.dev
+  base_url: https://sveltia-cms-alek.alekyoanda0.workers.dev
 
 media_folder: "public/images"
 public_folder: "/images"
